@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Download Videos Page</title>
+</head>
+<body>
+    <header>
+        <video autoplay muted loop id="myVideo">
+            <source src="Data_Grid.mp4" type="video/mp4">
+        </video>
+        <div class="header-content">
+            <h1>Youtube Downloader</h1>
+            <p>Download Any Video from Youtube Here!</p>
+        </div>
+    </header>
+
+    <section>
+        <p>Select the quality of Video:</p>
+        <select name="videoQuality" id="selectQuality">
+            <option value="320:240">360p/mp4</option>
+            <option value="640:480">480p/mp4</option>
+            <option value="768:576">768p/mp4</option>
+            <option value="1280:720">1080p/mp4</option>
+            <option value="1920:1080">1920p/mp4</option>
+        </select>
+        <p>Input the URL of video: </p>
+        <input type="text" class="URL-input" placeholder="Video URL e.g. https://www.youtube.com/watch?v=">
+        <button class="convert-button">Download</button>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

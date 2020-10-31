@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(236, 243, 248, 0.429);
+}
+
+header {
+    position: relative;
+    display: block;
+    box-shadow: 0 5px 5px 0 rgba(76, 0, 255, 0.3), 0 5px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-content {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 7.5em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.header-content h1 {
+    color: aliceblue;
+    font-size: 5em;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.header-content p {
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: cursive;
+    text-shadow:  0 3px #043cf5, 0 0 5px #f1f1f1;
+}
+
+video {
+    margin-top: -29em;
+    width: 100%;
+}
+
+#myVideo {
+    position: relative;
+    top: -10;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* max-height: 1px; */
+    filter: opacity(70%);
+}
+
+
+section {
+    margin: 3em;
+    text-align: center;
+}
+
+section button {
+    padding: 1.5em;
+    margin: 0 1.5em;
+    border-radius: 2em;
+    background-color: white;
+    color: blue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+}
+
+section button a {
+    text-decoration: none;
+}
+
+section button:hover{
+    background-color: navy;
+    color: white;
+}
+
